@@ -1,0 +1,585 @@
+<?xml version='1.0'?>
+<!DOCTYPE signatures SYSTEM "file://localhost/System/Library/DTDs/BridgeSupport.dtd">
+<signatures version='1.0'>
+<opaque name='IONotificationPortRef' type='^{IONotificationPort=}'/>
+<enum name='kIOScaleRotate0' value='0'/>
+<enum name='kIOScaleRotate180' value='96'/>
+<enum name='kIOScaleRotate270' value='80'/>
+<enum name='kIOScaleRotate90' value='48'/>
+<enum name='kIORegistryIterateParents' value='2'/>
+<enum name='kIORegistryIterateRecursively' value='1'/>
+<function name='IOBSDNameMatching'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='*'/>
+<retval type='^{__CFDictionary=}'/>
+</function>
+<function name='IOCatalogueGetData'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='^*'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOCatalogueModuleLoaded'>
+<arg type='I'/>
+<arg type='*'/>
+<retval type='i'/>
+</function>
+<function name='IOCatalogueReset'>
+<arg type='I'/>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IOCatalogueSendData'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IOCatalogueTerminate'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='*'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectAddClient'>
+<arg type='I'/>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectAddRef'>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectCallAsyncMethod'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='^Q'/>
+<arg type='I'/>
+<arg type='^Q'/>
+<arg type='I'/>
+<arg type='^v'/>
+<arg type='L' type64='Q'/>
+<arg type='^Q'/>
+<arg type='^I'/>
+<arg type='^v'/>
+<arg type='^I' type64='^Q'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectCallAsyncScalarMethod'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='^Q'/>
+<arg type='I'/>
+<arg type='^Q'/>
+<arg type='I'/>
+<arg type='^Q'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectCallAsyncStructMethod'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='^Q'/>
+<arg type='I'/>
+<arg type='^v'/>
+<arg type='L' type64='Q'/>
+<arg type='^v'/>
+<arg type='^I' type64='^Q'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectCallMethod'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='^Q'/>
+<arg type='I'/>
+<arg type='^v'/>
+<arg type='L' type64='Q'/>
+<arg type='^Q'/>
+<arg type='^I'/>
+<arg type='^v'/>
+<arg type='^I' type64='^Q'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectCallScalarMethod'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='^Q'/>
+<arg type='I'/>
+<arg type='^Q'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectCallStructMethod'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='^v'/>
+<arg type='L' type64='Q'/>
+<arg type='^v'/>
+<arg type='^I' type64='^Q'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectGetService'>
+<arg type='I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectMapMemory'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='^I' type64='^Q'/>
+<arg type='^I' type64='^Q'/>
+<arg type='L' type64='I'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectMapMemory64'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='^Q'/>
+<arg type='^Q'/>
+<arg type='L' type64='I'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectRelease'>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectSetCFProperties'>
+<arg type='I'/>
+<arg type='@'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectSetCFProperty'>
+<arg type='I'/>
+<arg type='^{__CFString=}'/>
+<arg type='@'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectSetNotificationPort'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='L' type64='Q'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectTrap0'>
+<arg type='I'/>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectTrap1'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='L' type64='Q'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectTrap2'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectTrap3'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectTrap4'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectTrap5'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectTrap6'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<arg type='L' type64='Q'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectUnmapMemory'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='I' type64='Q'/>
+<retval type='i'/>
+</function>
+<function name='IOConnectUnmapMemory64'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='Q'/>
+<retval type='i'/>
+</function>
+<function name='IOCreateReceivePort'>
+<arg type='I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IODispatchCalloutFromMessage'>
+<arg type='^v'/>
+<arg type='^{_mach_msg_header_t=IIIIIi}'/>
+<arg type='^v'/>
+</function>
+<function name='IOIteratorIsValid'>
+<arg type='I'/>
+<retval type='i' type64='I'/>
+</function>
+<function name='IOIteratorNext'>
+<arg type='I'/>
+<retval type='I'/>
+</function>
+<function name='IOIteratorReset'>
+<arg type='I'/>
+</function>
+<function name='IOKitGetBusyState'>
+<arg type='I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOKitWaitQuiet'>
+<arg type='I'/>
+<arg type='^{mach_timespec=Ii}'/>
+<retval type='i'/>
+</function>
+<function name='IOMasterPort'>
+<arg type='I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IONotificationPortCreate'>
+<arg type='I'/>
+<retval already_retained='true' type='^{IONotificationPort=}'/>
+</function>
+<function name='IONotificationPortDestroy'>
+<arg type='^{IONotificationPort=}'/>
+</function>
+<function name='IONotificationPortGetMachPort'>
+<arg type='^{IONotificationPort=}'/>
+<retval type='I'/>
+</function>
+<function name='IONotificationPortGetRunLoopSource'>
+<arg type='^{IONotificationPort=}'/>
+<retval type='^{__CFRunLoopSource=}'/>
+</function>
+<function name='IONotificationPortSetDispatchQueue'>
+<arg type='^{IONotificationPort=}'/>
+<arg type='@'/>
+</function>
+<function name='IOObjectConformsTo'>
+<arg type='I'/>
+<arg type='*'/>
+<retval type='i' type64='I'/>
+</function>
+<function name='IOObjectCopyBundleIdentifierForClass'>
+<arg type='^{__CFString=}'/>
+<retval already_retained='true' type='^{__CFString=}'/>
+</function>
+<function name='IOObjectCopyClass'>
+<arg type='I'/>
+<retval already_retained='true' type='^{__CFString=}'/>
+</function>
+<function name='IOObjectCopySuperclassForClass'>
+<arg type='^{__CFString=}'/>
+<retval already_retained='true' type='^{__CFString=}'/>
+</function>
+<function name='IOObjectGetClass'>
+<arg type='I'/>
+<arg type='*'/>
+<retval type='i'/>
+</function>
+<function name='IOObjectGetKernelRetainCount'>
+<arg type='I'/>
+<retval type='I'/>
+</function>
+<function name='IOObjectGetRetainCount'>
+<arg type='I'/>
+<retval type='I'/>
+</function>
+<function name='IOObjectGetUserRetainCount'>
+<arg type='I'/>
+<retval type='I'/>
+</function>
+<function name='IOObjectIsEqualTo'>
+<arg type='I'/>
+<arg type='I'/>
+<retval type='i' type64='I'/>
+</function>
+<function name='IOObjectRelease'>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IOObjectRetain'>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IOOpenFirmwarePathMatching'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='*'/>
+<retval type='^{__CFDictionary=}'/>
+</function>
+<function name='IORegistryCreateIterator'>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='L' type64='I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntryCreateCFProperties'>
+<arg type='I'/>
+<arg type='^^{__CFDictionary}'/>
+<arg type='^{__CFAllocator=}'/>
+<arg type='L' type64='I'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntryCreateCFProperty'>
+<arg type='I'/>
+<arg type='^{__CFString=}'/>
+<arg type='^{__CFAllocator=}'/>
+<arg type='L' type64='I'/>
+<retval already_retained='true' type='@'/>
+</function>
+<function name='IORegistryEntryCreateIterator'>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='L' type64='I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntryFromPath'>
+<arg type='I'/>
+<arg type='*'/>
+<retval type='I'/>
+</function>
+<function name='IORegistryEntryGetChildEntry'>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntryGetChildIterator'>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntryGetLocationInPlane'>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='*'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntryGetName'>
+<arg type='I'/>
+<arg type='*'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntryGetNameInPlane'>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='*'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntryGetParentEntry'>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntryGetParentIterator'>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntryGetPath'>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='*'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntryGetProperty'>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='*'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntryGetRegistryEntryID'>
+<arg type='I'/>
+<arg type='^Q'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntryIDMatching'>
+<arg type='Q'/>
+<retval type='^{__CFDictionary=}'/>
+</function>
+<function name='IORegistryEntryInPlane'>
+<arg type='I'/>
+<arg type='*'/>
+<retval type='i' type64='I'/>
+</function>
+<function name='IORegistryEntrySearchCFProperty'>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='^{__CFString=}'/>
+<arg type='^{__CFAllocator=}'/>
+<arg type='L' type64='I'/>
+<retval type='@'/>
+</function>
+<function name='IORegistryEntrySetCFProperties'>
+<arg type='I'/>
+<arg type='@'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryEntrySetCFProperty'>
+<arg type='I'/>
+<arg type='^{__CFString=}'/>
+<arg type='@'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryGetRootEntry'>
+<arg type='I'/>
+<retval type='I'/>
+</function>
+<function name='IORegistryIteratorEnterEntry'>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IORegistryIteratorExitEntry'>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IOServiceAddInterestNotification'>
+<arg type='^{IONotificationPort=}'/>
+<arg type='I'/>
+<arg type='*'/>
+<arg function_pointer='true' type='^?'>
+<arg type='^v'/>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='^v'/>
+<retval type='v'/>
+</arg>
+<arg type='^v'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOServiceAddMatchingNotification'>
+<arg type='^{IONotificationPort=}'/>
+<arg type='*'/>
+<arg type='^{__CFDictionary=}'/>
+<arg function_pointer='true' type='^?'>
+<arg type='^v'/>
+<arg type='I'/>
+<retval type='v'/>
+</arg>
+<arg type='^v'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOServiceAddNotification'>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='^{__CFDictionary=}'/>
+<arg type='I'/>
+<arg type='L' type64='Q'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOServiceClose'>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IOServiceGetBusyState'>
+<arg type='I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOServiceGetMatchingService'>
+<arg type='I'/>
+<arg type='^{__CFDictionary=}'/>
+<retval type='I'/>
+</function>
+<function name='IOServiceGetMatchingServices'>
+<arg type='I'/>
+<arg type='^{__CFDictionary=}'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOServiceMatchPropertyTable'>
+<arg type='I'/>
+<arg type='^{__CFDictionary=}'/>
+<arg type='^i' type64='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOServiceMatching'>
+<arg type='*'/>
+<retval type='^{__CFDictionary=}'/>
+</function>
+<function name='IOServiceNameMatching'>
+<arg type='*'/>
+<retval type='^{__CFDictionary=}'/>
+</function>
+<function name='IOServiceOFPathToBSDName'>
+<arg type='I'/>
+<arg type='*'/>
+<arg type='*'/>
+<retval type='i'/>
+</function>
+<function name='IOServiceOpen'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOServiceRequestProbe'>
+<arg type='I'/>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IOServiceWaitQuiet'>
+<arg type='I'/>
+<arg type='^{mach_timespec=Ii}'/>
+<retval type='i'/>
+</function>
+<function name='OSGetNotificationFromMessage'>
+<arg type='^{_mach_msg_header_t=IIIIIi}'/>
+<arg type='I'/>
+<arg type='^I'/>
+<arg type='^I' type64='^Q'/>
+<arg type='^^v'/>
+<arg type='^I' type64='^Q'/>
+<retval type='i'/>
+</function>
+</signatures>

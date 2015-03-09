@@ -1,0 +1,1136 @@
+<?xml version='1.0'?>
+<!DOCTYPE signatures SYSTEM "file://localhost/System/Library/DTDs/BridgeSupport.dtd">
+<signatures version='1.0'>
+<opaque name='IOBlitMemoryRef' type='^{_IOBlitMemory=}'/>
+<string_constant name='APPLE_GRAPHICS_DEVICE_CONTROL_SERVICE' value='AppleGraphicsDeviceControl'/>
+<string_constant name='IO16BitDirectPixels' value='-RRRRRGGGGGBBBBB'/>
+<string_constant name='IO1BitIndexedPixels' value='P'/>
+<string_constant name='IO2BitIndexedPixels' value='PP'/>
+<string_constant name='IO32BitDirectPixels' value='--------RRRRRRRRGGGGGGGGBBBBBBBB'/>
+<string_constant name='IO4BitIndexedPixels' value='PPPP'/>
+<string_constant name='IO8BitIndexedPixels' value='PPPPPPPP'/>
+<string_constant name='IO8BitOverlayPixels' value='O8'/>
+<string_constant name='IOFRAMEBUFFER_CONFORMSTO' value='IOFramebuffer'/>
+<string_constant name='IOPagedPixels' value='Page1'/>
+<string_constant name='IOYUV422Pixels' value='Y4U2V2'/>
+<string_constant name='kAppleDisplayTypeKey' value='AppleDisplayType'/>
+<string_constant name='kAppleSenseKey' value='AppleSense'/>
+<string_constant name='kDisplayBlueGamma' value='DisplayBlueGamma'/>
+<string_constant name='kDisplayBluePointX' value='DisplayBluePointX'/>
+<string_constant name='kDisplayBluePointY' value='DisplayBluePointY'/>
+<string_constant name='kDisplayBrightnessAffectsGamma' value='DisplayBrightnessAffectsGamma'/>
+<string_constant name='kDisplayBundleKey' value='DisplayBundle'/>
+<string_constant name='kDisplayCSProfile' value='DisplayCSProfile'/>
+<string_constant name='kDisplayFixedPixelFormat' value='DisplayFixedPixelFormat'/>
+<string_constant name='kDisplayGammaChannels' value='DisplayGammaChannels'/>
+<string_constant name='kDisplayGammaEntryCount' value='DisplayGammaEntryCount'/>
+<string_constant name='kDisplayGammaEntrySize' value='DisplayGammaEntrySize'/>
+<string_constant name='kDisplayGammaTable' value='DisplayGammaTable'/>
+<string_constant name='kDisplayGreenGamma' value='DisplayGreenGamma'/>
+<string_constant name='kDisplayGreenPointX' value='DisplayGreenPointX'/>
+<string_constant name='kDisplayGreenPointY' value='DisplayGreenPointY'/>
+<string_constant name='kDisplayHorizontalImageSize' value='DisplayHorizontalImageSize'/>
+<string_constant name='kDisplayProductID' value='DisplayProductID'/>
+<string_constant name='kDisplayProductName' value='DisplayProductName'/>
+<string_constant name='kDisplayRedGamma' value='DisplayRedGamma'/>
+<string_constant name='kDisplayRedPointX' value='DisplayRedPointX'/>
+<string_constant name='kDisplayRedPointY' value='DisplayRedPointY'/>
+<string_constant name='kDisplaySerialNumber' value='DisplaySerialNumber'/>
+<string_constant name='kDisplaySerialString' value='DisplaySerialString'/>
+<string_constant name='kDisplaySubPixelConfiguration' value='DisplaySubPixelConfiguration'/>
+<string_constant name='kDisplaySubPixelLayout' value='DisplaySubPixelLayout'/>
+<string_constant name='kDisplaySubPixelShape' value='DisplaySubPixelShape'/>
+<string_constant name='kDisplayVendorID' value='DisplayVendorID'/>
+<string_constant name='kDisplayVerticalImageSize' value='DisplayVerticalImageSize'/>
+<string_constant name='kDisplayViewAngleAffectsGamma' value='DisplayViewAngleAffectsGamma'/>
+<string_constant name='kDisplayWeekOfManufacture' value='DisplayWeekManufacture'/>
+<string_constant name='kDisplayWhiteGamma' value='DisplayWhiteGamma'/>
+<string_constant name='kDisplayWhitePointX' value='DisplayWhitePointX'/>
+<string_constant name='kDisplayWhitePointY' value='DisplayWhitePointY'/>
+<string_constant name='kDisplayYearOfManufacture' value='DisplayYearManufacture'/>
+<string_constant name='kIO16BitFloatPixels' value='-16FR16FG16FB16'/>
+<string_constant name='kIO30BitDirectPixels' value='--RRRRRRRRRRGGGGGGGGGGBBBBBBBBBB'/>
+<string_constant name='kIO32BitFloatPixels' value='-32FR32FG32FB32'/>
+<string_constant name='kIO64BitDirectPixels' value='-16R16G16B16'/>
+<string_constant name='kIOAccelIndexKey' value='IOAccelIndex'/>
+<string_constant name='kIOAccelRevisionKey' value='IOAccelRevision'/>
+<string_constant name='kIOAccelTypesKey' value='IOAccelTypes'/>
+<string_constant name='kIOAcceleratorClassName' value='IOAccelerator'/>
+<string_constant name='kIODisplayAmbientLightSensorKey' value='ambient-light-sensor'/>
+<string_constant name='kIODisplayAttributesKey' value='IODisplayAttributes'/>
+<string_constant name='kIODisplayAudioBalanceLRKey' value='audio-balance-LR'/>
+<string_constant name='kIODisplayAudioBassKey' value='audio-bass'/>
+<string_constant name='kIODisplayAudioMuteAndScreenBlankKey' value='audio-mute-and-screen-blank'/>
+<string_constant name='kIODisplayAudioProcessorModeKey' value='audio-processor-mode'/>
+<string_constant name='kIODisplayAudioTrebleKey' value='audio-treble'/>
+<string_constant name='kIODisplayBlueGammaScaleKey' value='bgsc'/>
+<string_constant name='kIODisplayBrightnessKey' value='brightness'/>
+<string_constant name='kIODisplayCapabilityStringKey' value='IODisplayCapabilityString'/>
+<string_constant name='kIODisplayConnectFlagsKey' value='IODisplayConnectFlags'/>
+<string_constant name='kIODisplayContrastKey' value='contrast'/>
+<string_constant name='kIODisplayControllerIDKey' value='IODisplayControllerID'/>
+<string_constant name='kIODisplayEDIDKey' value='IODisplayEDID'/>
+<string_constant name='kIODisplayEDIDOriginalKey' value='IODisplayEDIDOriginal'/>
+<string_constant name='kIODisplayFirmwareLevelKey' value='IODisplayFirmwareLevel'/>
+<string_constant name='kIODisplayGUIDKey' value='IODisplayGUID'/>
+<string_constant name='kIODisplayGreenGammaScaleKey' value='ggsc'/>
+<string_constant name='kIODisplayHasBacklightKey' value='IODisplayHasBacklight'/>
+<string_constant name='kIODisplayHorizontalPositionKey' value='horizontal-position'/>
+<string_constant name='kIODisplayHorizontalSizeKey' value='horizontal-size'/>
+<string_constant name='kIODisplayIsDigitalKey' value='IODisplayIsDigital'/>
+<string_constant name='kIODisplayLinearBrightnessKey' value='linear-brightness'/>
+<string_constant name='kIODisplayLocationKey' value='IODisplayLocation'/>
+<string_constant name='kIODisplayMCCSVersionKey' value='IODisplayMCCSVersion'/>
+<string_constant name='kIODisplayManufacturerSpecificKey' value='manufacturer-specific'/>
+<string_constant name='kIODisplayMaxValueKey' value='max'/>
+<string_constant name='kIODisplayMicrophoneVolumeKey' value='microphone-volume'/>
+<string_constant name='kIODisplayMinValueKey' value='min'/>
+<string_constant name='kIODisplayOverrideMatchingKey' value='IODisplayOverrideMatching'/>
+<string_constant name='kIODisplayOverscanKey' value='oscn'/>
+<string_constant name='kIODisplayParallelogramKey' value='parallelogram'/>
+<string_constant name='kIODisplayParametersCommitKey' value='commit'/>
+<string_constant name='kIODisplayParametersDefaultKey' value='defaults'/>
+<string_constant name='kIODisplayParametersFlushKey' value='flush'/>
+<string_constant name='kIODisplayParametersKey' value='IODisplayParameters'/>
+<string_constant name='kIODisplayPincushionKey' value='pincushion'/>
+<string_constant name='kIODisplayPowerModeKey' value='power-mode'/>
+<string_constant name='kIODisplayPowerStateKey' value='dsyp'/>
+<string_constant name='kIODisplayRedGammaScaleKey' value='rgsc'/>
+<string_constant name='kIODisplayRotationKey' value='rotation'/>
+<string_constant name='kIODisplaySelectedColorModeKey' value='cmod'/>
+<string_constant name='kIODisplaySpeakerSelectKey' value='speaker-select'/>
+<string_constant name='kIODisplaySpeakerVolumeKey' value='speaker-volume'/>
+<string_constant name='kIODisplaySupportsBasicAudioKey' value='IODisplaySupportsBasicAudio'/>
+<string_constant name='kIODisplaySupportsUnderscanKey' value='IODisplaySupportsUnderscan'/>
+<string_constant name='kIODisplaySupportsYCbCr422Key' value='IODisplaySupportsYCbCr422'/>
+<string_constant name='kIODisplaySupportsYCbCr444Key' value='IODisplaySupportsYCbCr444'/>
+<string_constant name='kIODisplayTechnologyTypeKey' value='IODisplayTechnologyType'/>
+<string_constant name='kIODisplayTheatreModeKey' value='theatre-mode'/>
+<string_constant name='kIODisplayTheatreModeWindowKey' value='theatre-mode-window'/>
+<string_constant name='kIODisplayTrapezoidKey' value='trapezoid'/>
+<string_constant name='kIODisplayUsableLinearBrightnessKey' value='usable-linear-brightness'/>
+<string_constant name='kIODisplayUsageTimeKey' value='IODisplayUsageTime'/>
+<string_constant name='kIODisplayValueKey' value='value'/>
+<string_constant name='kIODisplayVerticalPositionKey' value='vertical-position'/>
+<string_constant name='kIODisplayVerticalSizeKey' value='vertical-size'/>
+<string_constant name='kIODisplayVideoBestKey' value='vbst'/>
+<string_constant name='kIOFBAVSignalTypeKey' value='av-signal-type'/>
+<string_constant name='kIOFBBitsPerComponentKey' value='IOFBBitsPerComponent'/>
+<string_constant name='kIOFBBitsPerPixelKey' value='IOFBBitsPerPixel'/>
+<string_constant name='kIOFBBytesPerPlaneKey' value='IOFBBytesPerPlane'/>
+<string_constant name='kIOFBBytesPerRowKey' value='IOFBBytesPerRow'/>
+<string_constant name='kIOFBCLUTDeferKey' value='IOFBCLUTDefer'/>
+<string_constant name='kIOFBComponentCountKey' value='IOFBComponentCount'/>
+<string_constant name='kIOFBConfigKey' value='IOFBConfig'/>
+<string_constant name='kIOFBCursorInfoKey' value='IOFBCursorInfo'/>
+<string_constant name='kIOFBDetailedTimingsKey' value='IOFBDetailedTimings'/>
+<string_constant name='kIOFBDisplayPortConfigurationDataKey' value='dpcd-registers'/>
+<string_constant name='kIOFBFlagsKey' value='IOFBFlags'/>
+<string_constant name='kIOFBGammaCountKey' value='IOFBGammaCount'/>
+<string_constant name='kIOFBGammaWidthKey' value='IOFBGammaWidth'/>
+<string_constant name='kIOFBHDMIDongleROMKey' value='IOFBHDMIDongleROM'/>
+<string_constant name='kIOFBHeightKey' value='IOFBHeight'/>
+<string_constant name='kIOFBHostAccessFlagsKey' value='IOFBHostAccessFlags'/>
+<string_constant name='kIOFBMemorySizeKey' value='IOFBMemorySize'/>
+<string_constant name='kIOFBModeAIDKey' value='AID'/>
+<string_constant name='kIOFBModeDFKey' value='DF'/>
+<string_constant name='kIOFBModeDMKey' value='DM'/>
+<string_constant name='kIOFBModeIDKey' value='ID'/>
+<string_constant name='kIOFBModePIKey' value='PI'/>
+<string_constant name='kIOFBModeTMKey' value='TM'/>
+<string_constant name='kIOFBModesKey' value='IOFBModes'/>
+<string_constant name='kIOFBNeedsRefreshKey' value='IOFBNeedsRefresh'/>
+<string_constant name='kIOFBProbeOptionsKey' value='IOFBProbeOptions'/>
+<string_constant name='kIOFBRefreshRateKey' value='IOFBRefreshRate'/>
+<string_constant name='kIOFBScalerInfoKey' value='IOFBScalerInfo'/>
+<string_constant name='kIOFBTimingRangeKey' value='IOFBTimingRange'/>
+<string_constant name='kIOFBWidthKey' value='IOFBWidth'/>
+<string_constant name='kIOFramebufferInfoKey' value='IOFramebufferInformation'/>
+<string_constant name='kIOHibernateEFIGfxStatusKey' value='IOHibernateEFIGfxStatus'/>
+<string_constant name='kIOHibernatePreviewActiveKey' value='IOHibernatePreviewActive'/>
+<enum name='AGDC_EDID_BLOCKSIZE' value='128'/>
+<enum name='APPLE_GRAPHICS_DEVICE_CONTOL_VERSION' value='522'/>
+<enum name='ATTRIBUTE_DOCONTROL' value='1684239468'/>
+<enum name='ATTRIBUTE_ONLINE' value='560948838'/>
+<enum name='ATTRIBUTE_SETEDID' value='1701079396'/>
+<enum name='ATTRIBUTE_SETMODE' value='1836279156'/>
+<enum name='CURSORHEIGHT' value='16'/>
+<enum name='CURSORWIDTH' value='16'/>
+<enum name='IOACCEL_TYPES_REV' value='12'/>
+<enum name='IOFBMESSAGECALLBACKSVERSIONCURRENT' value='2'/>
+<enum name='IOFBMessageCallbacksVersion' value='2'/>
+<enum name='IOGA_COMPAT' value='1'/>
+<enum name='IOGRAPHICSTYPES_REV' value='38'/>
+<enum name='IO_12BPP_TRANSFER_TABLE_SIZE' value='256'/>
+<enum name='IO_15BPP_TRANSFER_TABLE_SIZE' value='256'/>
+<enum name='IO_24BPP_TRANSFER_TABLE_SIZE' value='256'/>
+<enum name='IO_2BPP_TRANSFER_TABLE_SIZE' value='256'/>
+<enum name='IO_8BPP_TRANSFER_TABLE_SIZE' value='256'/>
+<enum name='IO_DISPLAY_CAN_BLIT' value='32'/>
+<enum name='IO_DISPLAY_CAN_FILL' value='64'/>
+<enum name='IO_SampleTypeAlpha' value='65'/>
+<enum name='IO_SampleTypeSkip' value='45'/>
+<enum name='STDFB_4BPS_TO_5BPS_MAP_SIZE' value='16'/>
+<enum name='STDFB_5BPS_TO_4BPS_MAP_SIZE' value='32'/>
+<enum name='STDFB_BM256_TO_BM38_MAP_SIZE' value='256'/>
+<enum name='STDFB_BM38_TO_256_WITH_LOGICAL_SIZE' value='320'/>
+<enum name='STDFB_BM38_TO_BM256_MAP_SIZE' value='256'/>
+<enum name='kAGDCDPLinkConfigFlag_DefaultDownspread' value='16'/>
+<enum name='kAGDCDPLinkConfigFlag_DefaultIdlePatterns' value='2'/>
+<enum name='kAGDCDPLinkConfigFlag_DefaultPreEmphasis' value='8'/>
+<enum name='kAGDCDPLinkConfigFlag_DefaultScrambler' value='32'/>
+<enum name='kAGDCDPLinkConfigFlag_DefaultTraining' value='1'/>
+<enum name='kAGDCDPLinkConfigFlag_DefaultVoltage' value='4'/>
+<enum name='kAGDCDPStreamConfig' value='2440'/>
+<enum name='kAGDCFBDPLinkConfig' value='1798'/>
+<enum name='kAGDCFBDoControl' value='1797'/>
+<enum name='kAGDCFBInjectEvent' value='1796'/>
+<enum name='kAGDCFBOnline' value='1793'/>
+<enum name='kAGDCFBPerFramebufferCMD' value='1792'/>
+<enum name='kAGDCFBSetEDID' value='1794'/>
+<enum name='kAGDCFBSetMode' value='1795'/>
+<enum name='kAGDCGPUCapability' value='2432'/>
+<enum name='kAGDCLinkConfig' value='2337'/>
+<enum name='kAGDCLinkConfigFlag_IsAssociated' value='8'/>
+<enum name='kAGDCLinkConfigFlag_IsFixed' value='4'/>
+<enum name='kAGDCLinkConfigFlag_IsGrouped' value='16'/>
+<enum name='kAGDCLinkConfigFlag_MayGroup' value='2'/>
+<enum name='kAGDCLinkConfigFlag_Online' value='1'/>
+<enum name='kAGDCMultiLinkConfig' value='2336'/>
+<enum name='kAGDCPMDownInterruptHint' value='1'/>
+<enum name='kAGDCPMInfo' value='256'/>
+<enum name='kAGDCPMPState' value='259'/>
+<enum name='kAGDCPMPowerLimit' value='260'/>
+<enum name='kAGDCPMStateCeiling' value='257'/>
+<enum name='kAGDCPMStateFloor' value='258'/>
+<enum name='kAGDCPMUpInterruptHint' value='0'/>
+<enum name='kAGDCRegisterLinkChange' value='2'/>
+<enum name='kAGDCRegisterLinkChangeMST' value='3'/>
+<enum name='kAGDCRegisterLinkChangeWakeProbe' value='128'/>
+<enum name='kAGDCRegisterLinkFramebuffer' value='4'/>
+<enum name='kAGDCRegisterLinkInsert' value='0'/>
+<enum name='kAGDCRegisterLinkRemove' value='1'/>
+<enum name='kAGDCStreamAccessAUX' value='2437'/>
+<enum name='kAGDCStreamAccessI2C' value='2435'/>
+<enum name='kAGDCStreamAccessI2CCapability' value='2436'/>
+<enum name='kAGDCStreamAssociate' value='2433'/>
+<enum name='kAGDCStreamGetEDID' value='2438'/>
+<enum name='kAGDCStreamRequest' value='2434'/>
+<enum name='kAGDCStreamSetState' value='2439'/>
+<enum name='kAGDCStreamStateEnabled' value='1'/>
+<enum name='kAGDCStreamStateInvalid' value='2147483648'/>
+<enum name='kAGDCStreamStateRelease' value='0'/>
+<enum name='kAGDCVendorClassAppleGPUPolicyManager' value='5'/>
+<enum name='kAGDCVendorClassAppleGPUPowerManager' value='6'/>
+<enum name='kAGDCVendorClassDiscreteGPU' value='2'/>
+<enum name='kAGDCVendorClassIntegratedGPU' value='1'/>
+<enum name='kAGDCVendorClassOtherHW' value='3'/>
+<enum name='kAGDCVendorClassOtherSW' value='4'/>
+<enum name='kAGDCVendorClassReserved' value='0'/>
+<enum name='kAGDCVendorCmdFlag' value='-2147483648'/>
+<enum name='kAGDCVendorEnableController' value='2'/>
+<enum name='kAGDCVendorInfo' value='1'/>
+<enum name='kAndConnections' value='268435453'/>
+<enum name='kConnectionAudioStreaming' value='1635083379'/>
+<enum name='kConnectionBlueGammaScale' value='1650946915'/>
+<enum name='kConnectionChanged' value='1667788391'/>
+<enum name='kConnectionCheckEnable' value='1667591777'/>
+<enum name='kConnectionColorDepthsSupported' value='543322211'/>
+<enum name='kConnectionColorMode' value='1668904310'/>
+<enum name='kConnectionColorModesSupported' value='1668246642'/>
+<enum name='kConnectionControllerColorDepth' value='6582372'/>
+<enum name='kConnectionControllerDepthsSupported' value='6779492'/>
+<enum name='kConnectionControllerDitherControl' value='6775907'/>
+<enum name='kConnectionDisplayFlags' value='1684434023'/>
+<enum name='kConnectionDisplayParameterCount' value='1885564532'/>
+<enum name='kConnectionDisplayParameters' value='1885434477'/>
+<enum name='kConnectionEnable' value='1701732706'/>
+<enum name='kConnectionEnableAudio' value='1635083296'/>
+<enum name='kConnectionFlags' value='1718380403'/>
+<enum name='kConnectionGreenGammaScale' value='1734832995'/>
+<enum name='kConnectionHandleDisplayPortEvent' value='1685088626'/>
+<enum name='kConnectionOverscan' value='1869833070'/>
+<enum name='kConnectionPanelTimingDisable' value='1886284916'/>
+<enum name='kConnectionPostWake' value='1886871915'/>
+<enum name='kConnectionPower' value='1886353266'/>
+<enum name='kConnectionProbe' value='1886547810'/>
+<enum name='kConnectionRedGammaScale' value='1919382371'/>
+<enum name='kConnectionSupportsAppleSense' value='1634954867'/>
+<enum name='kConnectionSupportsHLDDCSense' value='1751409763'/>
+<enum name='kConnectionSupportsLLDDCSense' value='1818518627'/>
+<enum name='kConnectionSyncEnable' value='1937337955'/>
+<enum name='kConnectionSyncFlags' value='1937335142'/>
+<enum name='kConnectionVideoBest' value='1986163572'/>
+<enum name='kCurrentGraphicsInterfaceRevision' value='2'/>
+<enum name='kCurrentGraphicsInterfaceVersion' value='1'/>
+<enum name='kDisplayModeAcceleratorBackedFlag' value='4194304'/>
+<enum name='kDisplayModeAlwaysShowFlag' value='8'/>
+<enum name='kDisplayModeBuiltInFlag' value='1024'/>
+<enum name='kDisplayModeDefaultFlag' value='4'/>
+<enum name='kDisplayModeInterlacedFlag' value='64'/>
+<enum name='kDisplayModeNeverShowFlag' value='128'/>
+<enum name='kDisplayModeNotGraphicsQualityFlag' value='4096'/>
+<enum name='kDisplayModeNotPresetFlag' value='512'/>
+<enum name='kDisplayModeNotResizeFlag' value='16'/>
+<enum name='kDisplayModeRequiresPanFlag' value='32'/>
+<enum name='kDisplayModeSafeFlag' value='2'/>
+<enum name='kDisplayModeSafetyFlags' value='7'/>
+<enum name='kDisplayModeSimulscanFlag' value='256'/>
+<enum name='kDisplayModeStretchedFlag' value='2048'/>
+<enum name='kDisplayModeTelevisionFlag' value='1048576'/>
+<enum name='kDisplayModeValidFlag' value='1'/>
+<enum name='kDisplayModeValidForAirPlayFlag' value='16777216'/>
+<enum name='kDisplayModeValidForHiResFlag' value='8388608'/>
+<enum name='kDisplayModeValidForMirroringFlag' value='2097152'/>
+<enum name='kDisplayModeValidateAgainstDisplay' value='8192'/>
+<enum name='kDisplayProductIDGeneric' value='1815'/>
+<enum name='kDisplaySubPixelConfigurationDelta' value='1'/>
+<enum name='kDisplaySubPixelConfigurationQuad' value='4'/>
+<enum name='kDisplaySubPixelConfigurationStripe' value='2'/>
+<enum name='kDisplaySubPixelConfigurationStripeOffset' value='3'/>
+<enum name='kDisplaySubPixelConfigurationUndefined' value='0'/>
+<enum name='kDisplaySubPixelLayoutBGR' value='2'/>
+<enum name='kDisplaySubPixelLayoutQuadGBL' value='3'/>
+<enum name='kDisplaySubPixelLayoutQuadGBR' value='4'/>
+<enum name='kDisplaySubPixelLayoutRGB' value='1'/>
+<enum name='kDisplaySubPixelLayoutUndefined' value='0'/>
+<enum name='kDisplaySubPixelShapeElliptical' value='5'/>
+<enum name='kDisplaySubPixelShapeOval' value='4'/>
+<enum name='kDisplaySubPixelShapeRectangular' value='3'/>
+<enum name='kDisplaySubPixelShapeRound' value='1'/>
+<enum name='kDisplaySubPixelShapeSquare' value='2'/>
+<enum name='kDisplaySubPixelShapeUndefined' value='0'/>
+<enum name='kDisplayVendorIDUnknown' value='1970170734'/>
+<enum name='kFramebufferDisableAltivecAccess' value='524288'/>
+<enum name='kFramebufferSupportsCopybackCache' value='65536'/>
+<enum name='kFramebufferSupportsGammaCorrection' value='262144'/>
+<enum name='kFramebufferSupportsWritethruCache' value='131072'/>
+<enum name='kHardwareCursorDescriptorMajorVersion' value='1'/>
+<enum name='kHardwareCursorDescriptorMinorVersion' value='0'/>
+<enum name='kHardwareCursorInfoMajorVersion' value='1'/>
+<enum name='kHardwareCursorInfoMinorVersion' value='0'/>
+<enum name='kIO128RGBAFloatPixelFormat' value='1110651462'/>
+<enum name='kIO16BE4444PixelFormat' value='1110717492'/>
+<enum name='kIO16BE555PixelFormat' value='16'/>
+<enum name='kIO16BE565PixelFormat' value='1110783541'/>
+<enum name='kIO16LE4444PixelFormat' value='1278489652'/>
+<enum name='kIO16LE5551PixelFormat' value='892679473'/>
+<enum name='kIO16LE555PixelFormat' value='1278555445'/>
+<enum name='kIO16LE565PixelFormat' value='1278555701'/>
+<enum name='kIO1IndexedGrayPixelFormat' value='33'/>
+<enum name='kIO1MonochromePixelFormat' value='1'/>
+<enum name='kIO24BGRPixelFormat' value='842285639'/>
+<enum name='kIO24RGBPixelFormat' value='24'/>
+<enum name='kIO2IndexedGrayPixelFormat' value='34'/>
+<enum name='kIO2IndexedPixelFormat' value='2'/>
+<enum name='kIO2vuyPixelFormat' value='846624121'/>
+<enum name='kIO32ABGRPixelFormat' value='1094862674'/>
+<enum name='kIO32ARGBPixelFormat' value='32'/>
+<enum name='kIO32BGRAPixelFormat' value='1111970369'/>
+<enum name='kIO32RGBAPixelFormat' value='1380401729'/>
+<enum name='kIO4IndexedGrayPixelFormat' value='36'/>
+<enum name='kIO4IndexedPixelFormat' value='4'/>
+<enum name='kIO64BGRAPixelFormat' value='1110521417'/>
+<enum name='kIO64RGBAFloatPixelFormat' value='1110521414'/>
+<enum name='kIO8IndexedGrayPixelFormat' value='40'/>
+<enum name='kIO8IndexedPixelFormat' value='8'/>
+<enum name='kIOAccelNumClientTypes' value='1'/>
+<enum name='kIOAccelNumSurfaceMemoryTypes' value='0'/>
+<enum name='kIOAccelNumSurfaceMethods' value='18'/>
+<enum name='kIOAccelPrivateID' value='1'/>
+<enum name='kIOAccelSurfaceBeamSyncSwaps' value='1'/>
+<enum name='kIOAccelSurfaceClientType' value='0'/>
+<enum name='kIOAccelSurfaceControl' value='16'/>
+<enum name='kIOAccelSurfaceFilterDefault' value='0'/>
+<enum name='kIOAccelSurfaceFilterLinear' value='32'/>
+<enum name='kIOAccelSurfaceFilterNone' value='16'/>
+<enum name='kIOAccelSurfaceFiltering' value='240'/>
+<enum name='kIOAccelSurfaceFixedSource' value='2'/>
+<enum name='kIOAccelSurfaceFlush' value='10'/>
+<enum name='kIOAccelSurfaceGetState' value='2'/>
+<enum name='kIOAccelSurfaceLockInAccel' value='1'/>
+<enum name='kIOAccelSurfaceLockInBacking' value='0'/>
+<enum name='kIOAccelSurfaceLockInDontCare' value='2'/>
+<enum name='kIOAccelSurfaceLockInMask' value='3'/>
+<enum name='kIOAccelSurfaceModeBeamSync' value='32768'/>
+<enum name='kIOAccelSurfaceModeColorDepth1555' value='3'/>
+<enum name='kIOAccelSurfaceModeColorDepth2101010' value='15'/>
+<enum name='kIOAccelSurfaceModeColorDepth8888' value='4'/>
+<enum name='kIOAccelSurfaceModeColorDepthBGRA32' value='10'/>
+<enum name='kIOAccelSurfaceModeColorDepthBits' value='15'/>
+<enum name='kIOAccelSurfaceModeColorDepthYUV' value='6'/>
+<enum name='kIOAccelSurfaceModeColorDepthYUV12' value='8'/>
+<enum name='kIOAccelSurfaceModeColorDepthYUV2' value='9'/>
+<enum name='kIOAccelSurfaceModeColorDepthYUV9' value='7'/>
+<enum name='kIOAccelSurfaceModeStereoBit' value='16'/>
+<enum name='kIOAccelSurfaceModeWindowedBit' value='32'/>
+<enum name='kIOAccelSurfaceQueryLock' value='11'/>
+<enum name='kIOAccelSurfaceRead' value='5'/>
+<enum name='kIOAccelSurfaceReadLock' value='12'/>
+<enum name='kIOAccelSurfaceReadLockOptions' value='0'/>
+<enum name='kIOAccelSurfaceReadUnlock' value='13'/>
+<enum name='kIOAccelSurfaceReadUnlockOptions' value='1'/>
+<enum name='kIOAccelSurfaceSetIDMode' value='7'/>
+<enum name='kIOAccelSurfaceSetScale' value='8'/>
+<enum name='kIOAccelSurfaceSetShape' value='9'/>
+<enum name='kIOAccelSurfaceSetShapeBacking' value='6'/>
+<enum name='kIOAccelSurfaceSetShapeBackingAndLength' value='17'/>
+<enum name='kIOAccelSurfaceShapeAssemblyBit' value='64'/>
+<enum name='kIOAccelSurfaceShapeBeamSyncBit' value='16'/>
+<enum name='kIOAccelSurfaceShapeBlockingBit' value='1'/>
+<enum name='kIOAccelSurfaceShapeFrameSyncBit' value='8'/>
+<enum name='kIOAccelSurfaceShapeIdentityScaleBit' value='4'/>
+<enum name='kIOAccelSurfaceShapeNonBlockingBit' value='1'/>
+<enum name='kIOAccelSurfaceShapeNonSimpleBit' value='2'/>
+<enum name='kIOAccelSurfaceShapeNone' value='0'/>
+<enum name='kIOAccelSurfaceShapeStaleBackingBit' value='32'/>
+<enum name='kIOAccelSurfaceShapeWaitEnabledBit' value='128'/>
+<enum name='kIOAccelSurfaceStateIdleBit' value='1'/>
+<enum name='kIOAccelSurfaceStateNone' value='0'/>
+<enum name='kIOAccelSurfaceWriteLock' value='14'/>
+<enum name='kIOAccelSurfaceWriteLockOptions' value='3'/>
+<enum name='kIOAccelSurfaceWriteUnlock' value='15'/>
+<enum name='kIOAccelSurfaceWriteUnlockOptions' value='4'/>
+<enum name='kIOAccelVolatileSurface' value='1'/>
+<enum name='kIOAnalogSetupExpected' value='2'/>
+<enum name='kIOAnalogSignalLevel_0700_0000' value='3'/>
+<enum name='kIOAnalogSignalLevel_0700_0300' value='0'/>
+<enum name='kIOAnalogSignalLevel_0714_0286' value='1'/>
+<enum name='kIOAnalogSignalLevel_1000_0400' value='2'/>
+<enum name='kIOBlitAllOptions' value='4294967295'/>
+<enum name='kIOBlitBeamSync' value='1'/>
+<enum name='kIOBlitBeamSyncAlways' value='2'/>
+<enum name='kIOBlitBeamSyncSpin' value='4'/>
+<enum name='kIOBlitBeamSyncSwaps' value='4'/>
+<enum name='kIOBlitBlendOperation' value='196608'/>
+<enum name='kIOBlitColorSpaceTypes' value='1668509795'/>
+<enum name='kIOBlitCopyOperation' value='0'/>
+<enum name='kIOBlitDestFramebuffer' value='1'/>
+<enum name='kIOBlitFixedSource' value='2'/>
+<enum name='kIOBlitFlushWithSwap' value='65536'/>
+<enum name='kIOBlitFramebufferDestination' value='0'/>
+<enum name='kIOBlitHasCGSSurface' value='1'/>
+<enum name='kIOBlitHighlightOperation' value='262144'/>
+<enum name='kIOBlitMemoryRequiresHostFlush' value='1'/>
+<enum name='kIOBlitOrOperation' value='65536'/>
+<enum name='kIOBlitReferenceSource' value='8'/>
+<enum name='kIOBlitSourceCGSSurface' value='28672'/>
+<enum name='kIOBlitSourceDefault' value='0'/>
+<enum name='kIOBlitSourceFramebuffer' value='4096'/>
+<enum name='kIOBlitSourceIsSame' value='2147483648'/>
+<enum name='kIOBlitSourceMemory' value='8192'/>
+<enum name='kIOBlitSourceOOLMemory' value='12288'/>
+<enum name='kIOBlitSourceOOLPattern' value='20480'/>
+<enum name='kIOBlitSourcePattern' value='16384'/>
+<enum name='kIOBlitSourceSolid' value='24576'/>
+<enum name='kIOBlitSurfaceDestination' value='1'/>
+<enum name='kIOBlitSynchronizeFlushHostWrites' value='2'/>
+<enum name='kIOBlitSynchronizeWaitBeamExit' value='1'/>
+<enum name='kIOBlitTypeColorSpaceConvert' value='512'/>
+<enum name='kIOBlitTypeCopyRects' value='1'/>
+<enum name='kIOBlitTypeCopyRegion' value='4'/>
+<enum name='kIOBlitTypeDestKeyColorEqual' value='16384'/>
+<enum name='kIOBlitTypeDestKeyColorModeMask' value='49152'/>
+<enum name='kIOBlitTypeDestKeyColorNotEqual' value='32768'/>
+<enum name='kIOBlitTypeHideCursor' value='7'/>
+<enum name='kIOBlitTypeLines' value='2'/>
+<enum name='kIOBlitTypeMonoExpand' value='256'/>
+<enum name='kIOBlitTypeMoveCursor' value='5'/>
+<enum name='kIOBlitTypeOperationMask' value='268369920'/>
+<enum name='kIOBlitTypeOperationShift' value='16'/>
+<enum name='kIOBlitTypeOperationType0' value='0'/>
+<enum name='kIOBlitTypeOperationTypeMask' value='251658240'/>
+<enum name='kIOBlitTypeRects' value='0'/>
+<enum name='kIOBlitTypeScale' value='1024'/>
+<enum name='kIOBlitTypeScanlines' value='3'/>
+<enum name='kIOBlitTypeShowCursor' value='6'/>
+<enum name='kIOBlitTypeSourceKeyColorEqual' value='4096'/>
+<enum name='kIOBlitTypeSourceKeyColorModeMask' value='12288'/>
+<enum name='kIOBlitTypeSourceKeyColorNotEqual' value='8192'/>
+<enum name='kIOBlitTypeVerbMask' value='255'/>
+<enum name='kIOBlitUnlockWithSwap' value='2147483648'/>
+<enum name='kIOBlitWaitAll' value='2'/>
+<enum name='kIOBlitWaitAll2D' value='1'/>
+<enum name='kIOBlitWaitCheck' value='128'/>
+<enum name='kIOBlitWaitContext' value='0'/>
+<enum name='kIOBlitWaitGlobal' value='1'/>
+<enum name='kIOBlitXorOperation' value='131072'/>
+<enum name='kIOCLUTPixels' value='0'/>
+<enum name='kIOCSyncDisable' value='4'/>
+<enum name='kIOCapturedAttribute' value='1667330148'/>
+<enum name='kIOClamshellStateAttribute' value='1668047213'/>
+<enum name='kIOConnectionBuiltIn' value='2048'/>
+<enum name='kIOConnectionStereoSync' value='32768'/>
+<enum name='kIOCursorControlAttribute' value='1668445027'/>
+<enum name='kIODPEventAutomatedTestRequest' value='257'/>
+<enum name='kIODPEventContentProtection' value='258'/>
+<enum name='kIODPEventForceRetrain' value='3'/>
+<enum name='kIODPEventIdle' value='2'/>
+<enum name='kIODPEventMCCS' value='259'/>
+<enum name='kIODPEventRemoteControlCommandPending' value='256'/>
+<enum name='kIODPEventSinkSpecific' value='260'/>
+<enum name='kIODPEventStart' value='1'/>
+<enum name='kIODeferCLUTSetAttribute' value='1986227316'/>
+<enum name='kIODetailedTimingValid' value='2147483648'/>
+<enum name='kIODigitalSignal' value='1'/>
+<enum name='kIODisplayColorMode' value='1668904310'/>
+<enum name='kIODisplayDitherAll' value='255'/>
+<enum name='kIODisplayDitherDefault' value='128'/>
+<enum name='kIODisplayDitherDisable' value='0'/>
+<enum name='kIODisplayDitherFrameRateControl' value='4'/>
+<enum name='kIODisplayDitherRGBShift' value='0'/>
+<enum name='kIODisplayDitherSpatial' value='1'/>
+<enum name='kIODisplayDitherTemporal' value='2'/>
+<enum name='kIODisplayDitherYCbCr422Shift' value='16'/>
+<enum name='kIODisplayDitherYCbCr444Shift' value='8'/>
+<enum name='kIODisplayMatchingInfo' value='256'/>
+<enum name='kIODisplayModeIDBootProgrammable' value='-5'/>
+<enum name='kIODisplayModeIDReservedBase' value='-2147483648'/>
+<enum name='kIODisplayNeedsCEAUnderscan' value='1'/>
+<enum name='kIODisplayNoProductName' value='1024'/>
+<enum name='kIODisplayOnlyPreferredName' value='512'/>
+<enum name='kIODisplayPowerStateMinUsable' value='1'/>
+<enum name='kIODisplayPowerStateOff' value='0'/>
+<enum name='kIODisplayPowerStateOn' value='2'/>
+<enum name='kIODisplayRGBColorComponentBits10' value='4'/>
+<enum name='kIODisplayRGBColorComponentBits12' value='8'/>
+<enum name='kIODisplayRGBColorComponentBits14' value='16'/>
+<enum name='kIODisplayRGBColorComponentBits16' value='32'/>
+<enum name='kIODisplayRGBColorComponentBits6' value='1'/>
+<enum name='kIODisplayRGBColorComponentBits8' value='2'/>
+<enum name='kIODisplayRGBColorComponentBitsUnknown' value='0'/>
+<enum name='kIODisplayYCbCr422ColorComponentBits10' value='262144'/>
+<enum name='kIODisplayYCbCr422ColorComponentBits12' value='524288'/>
+<enum name='kIODisplayYCbCr422ColorComponentBits14' value='1048576'/>
+<enum name='kIODisplayYCbCr422ColorComponentBits16' value='2097152'/>
+<enum name='kIODisplayYCbCr422ColorComponentBits6' value='65536'/>
+<enum name='kIODisplayYCbCr422ColorComponentBits8' value='131072'/>
+<enum name='kIODisplayYCbCr422ColorComponentBitsUnknown' value='0'/>
+<enum name='kIODisplayYCbCr444ColorComponentBits10' value='1024'/>
+<enum name='kIODisplayYCbCr444ColorComponentBits12' value='2048'/>
+<enum name='kIODisplayYCbCr444ColorComponentBits14' value='4096'/>
+<enum name='kIODisplayYCbCr444ColorComponentBits16' value='8192'/>
+<enum name='kIODisplayYCbCr444ColorComponentBits6' value='256'/>
+<enum name='kIODisplayYCbCr444ColorComponentBits8' value='512'/>
+<enum name='kIODisplayYCbCr444ColorComponentBitsUnknown' value='0'/>
+<enum name='kIODriverPowerAttribute' value='1685090167'/>
+<enum name='kIOFBAVSignalTypeDP' value='16'/>
+<enum name='kIOFBAVSignalTypeDVI' value='2'/>
+<enum name='kIOFBAVSignalTypeHDMI' value='8'/>
+<enum name='kIOFBAVSignalTypeUnknown' value='0'/>
+<enum name='kIOFBAVSignalTypeVGA' value='1'/>
+<enum name='kIOFBBitRateHBR' value='10'/>
+<enum name='kIOFBBitRateHBR2' value='20'/>
+<enum name='kIOFBBitRateRBR' value='6'/>
+<enum name='kIOFBBlitBeamSync' value='1'/>
+<enum name='kIOFBBlitBeamSyncAlways' value='2'/>
+<enum name='kIOFBBlitBeamSyncSpin' value='4'/>
+<enum name='kIOFBChangedInterruptType' value='1667788391'/>
+<enum name='kIOFBConnectInterruptType' value='1684236576'/>
+<enum name='kIOFBConnectStateOnline' value='1'/>
+<enum name='kIOFBCurrentShmemVersion' value='2'/>
+<enum name='kIOFBCursorHWCapable' value='2'/>
+<enum name='kIOFBCursorImageNew' value='1'/>
+<enum name='kIOFBCursorMemory' value='100'/>
+<enum name='kIOFBDisplayPortInterruptType' value='1685088626'/>
+<enum name='kIOFBDisplayPortLinkChangeInterruptType' value='1685089387'/>
+<enum name='kIOFBDisplayPortTrainingAttribute' value='1685091425'/>
+<enum name='kIOFBFrameInterruptType' value='1718772077'/>
+<enum name='kIOFBHBLInterruptType' value='1751280672'/>
+<enum name='kIOFBHardwareCursorActive' value='1'/>
+<enum name='kIOFBHardwareCursorInVRAM' value='2'/>
+<enum name='kIOFBLinkDownspreadMax' value='1'/>
+<enum name='kIOFBLinkDownspreadNone' value='0'/>
+<enum name='kIOFBLinkPreEmphasisLevel0' value='0'/>
+<enum name='kIOFBLinkPreEmphasisLevel1' value='1'/>
+<enum name='kIOFBLinkPreEmphasisLevel2' value='2'/>
+<enum name='kIOFBLinkPreEmphasisLevel3' value='3'/>
+<enum name='kIOFBLinkScramblerAlternate' value='1'/>
+<enum name='kIOFBLinkScramblerNormal' value='0'/>
+<enum name='kIOFBLinkVoltageLevel0' value='0'/>
+<enum name='kIOFBLinkVoltageLevel1' value='1'/>
+<enum name='kIOFBLinkVoltageLevel2' value='2'/>
+<enum name='kIOFBLinkVoltageLevel3' value='3'/>
+<enum name='kIOFBMCCSInterruptType' value='1835230067'/>
+<enum name='kIOFBMaxCursorDepth' value='32'/>
+<enum name='kIOFBMessageCallbacksVersionCurrent' value='2'/>
+<enum name='kIOFBNumCursorFrames' value='4'/>
+<enum name='kIOFBNumCursorFramesShift' value='2'/>
+<enum name='kIOFBOfflineInterruptType' value='1919249782'/>
+<enum name='kIOFBOnlineInterruptType' value='1633969184'/>
+<enum name='kIOFBServerConnectType' value='0'/>
+<enum name='kIOFBSharedConnectType' value='1'/>
+<enum name='kIOFBShmemCursorNumFramesMask' value='16711680'/>
+<enum name='kIOFBShmemCursorNumFramesShift' value='16'/>
+<enum name='kIOFBShmemVersionMask' value='255'/>
+<enum name='kIOFBSynchronizeFlushWrites' value='2'/>
+<enum name='kIOFBSynchronizeWaitBeamExit' value='1'/>
+<enum name='kIOFBSystemAperture' value='0'/>
+<enum name='kIOFBTenPtOneShmemVersion' value='2'/>
+<enum name='kIOFBTenPtTwoShmemVersion' value='3'/>
+<enum name='kIOFBUserRequestProbe' value='1'/>
+<enum name='kIOFBVBLInterruptType' value='1986161696'/>
+<enum name='kIOFBWakeInterruptType' value='1987535211'/>
+<enum name='kIOFixedCLUTPixels' value='1'/>
+<enum name='kIOGraphicsEngineContext' value='100'/>
+<enum name='kIOGraphicsEngineContextVersion' value='1'/>
+<enum name='kIOHSyncDisable' value='1'/>
+<enum name='kIOHardwareCursorAttribute' value='1668445042'/>
+<enum name='kIOHibernatePreviewActive' value='1'/>
+<enum name='kIOHibernatePreviewUpdates' value='2'/>
+<enum name='kIOInterlacedCEATiming' value='4'/>
+<enum name='kIOMaxPixelBits' value='64'/>
+<enum name='kIOMirrorAttribute' value='1835627122'/>
+<enum name='kIOMirrorDefault' value='1'/>
+<enum name='kIOMirrorDefaultAttribute' value='1836213350'/>
+<enum name='kIOMirrorForced' value='2'/>
+<enum name='kIOMirrorHWClipped' value='1073741824'/>
+<enum name='kIOMirrorIsMirrored' value='536870912'/>
+<enum name='kIOMirrorIsPrimary' value='2147483648'/>
+<enum name='kIOMonoDirectPixels' value='3'/>
+<enum name='kIOMonoInverseDirectPixels' value='4'/>
+<enum name='kIONTSCTiming' value='8'/>
+<enum name='kIONoSeparateSyncControl' value='64'/>
+<enum name='kIOPALTiming' value='16'/>
+<enum name='kIOPowerAttribute' value='1886353266'/>
+<enum name='kIOPowerStateAttribute' value='1886876275'/>
+<enum name='kIORGBDirectPixels' value='2'/>
+<enum name='kIORGBSignedDirectPixels' value='5'/>
+<enum name='kIORGBSignedFloatingPointPixels' value='6'/>
+<enum name='kIORangeSupportsCompositeSync' value='4'/>
+<enum name='kIORangeSupportsInterlacedCEATiming' value='4'/>
+<enum name='kIORangeSupportsInterlacedCEATimingWithConfirm' value='8'/>
+<enum name='kIORangeSupportsSeparateSyncs' value='1'/>
+<enum name='kIORangeSupportsSignal_0700_0000' value='8'/>
+<enum name='kIORangeSupportsSignal_0700_0300' value='1'/>
+<enum name='kIORangeSupportsSignal_0714_0286' value='2'/>
+<enum name='kIORangeSupportsSignal_1000_0400' value='4'/>
+<enum name='kIORangeSupportsSyncOnGreen' value='2'/>
+<enum name='kIORangeSupportsVSyncSerration' value='8'/>
+<enum name='kIOScaleCanBorderInsetOnly' value='64'/>
+<enum name='kIOScaleCanDownSamplePixels' value='4'/>
+<enum name='kIOScaleCanRotate' value='32'/>
+<enum name='kIOScaleCanScaleInterlaced' value='8'/>
+<enum name='kIOScaleCanSupportInset' value='16'/>
+<enum name='kIOScaleCanUpSamplePixels' value='2'/>
+<enum name='kIOScaleInvertX' value='32'/>
+<enum name='kIOScaleInvertY' value='64'/>
+<enum name='kIOScaleRotate0' value='0'/>
+<enum name='kIOScaleRotate180' value='96'/>
+<enum name='kIOScaleRotate270' value='80'/>
+<enum name='kIOScaleRotate90' value='48'/>
+<enum name='kIOScaleRotateFlags' value='240'/>
+<enum name='kIOScaleStretchOnly' value='1'/>
+<enum name='kIOScaleStretchToFit' value='1'/>
+<enum name='kIOScaleSwapAxes' value='16'/>
+<enum name='kIOScalingInfoValid' value='1073741824'/>
+<enum name='kIOSyncOnBlue' value='8'/>
+<enum name='kIOSyncOnGreen' value='16'/>
+<enum name='kIOSyncOnRed' value='32'/>
+<enum name='kIOSyncPositivePolarity' value='1'/>
+<enum name='kIOSystemPowerAttribute' value='1936750450'/>
+<enum name='kIOTimingIDAppleNTSC_FF' value='232'/>
+<enum name='kIOTimingIDAppleNTSC_FFconv' value='236'/>
+<enum name='kIOTimingIDAppleNTSC_ST' value='230'/>
+<enum name='kIOTimingIDAppleNTSC_STconv' value='234'/>
+<enum name='kIOTimingIDApplePAL_FF' value='240'/>
+<enum name='kIOTimingIDApplePAL_FFconv' value='244'/>
+<enum name='kIOTimingIDApplePAL_ST' value='238'/>
+<enum name='kIOTimingIDApplePAL_STconv' value='242'/>
+<enum name='kIOTimingIDApple_0x0_0hz_Offline' value='550'/>
+<enum name='kIOTimingIDApple_1024x768_75hz' value='210'/>
+<enum name='kIOTimingIDApple_1152x870_75hz' value='220'/>
+<enum name='kIOTimingIDApple_512x384_60hz' value='130'/>
+<enum name='kIOTimingIDApple_560x384_60hz' value='135'/>
+<enum name='kIOTimingIDApple_640x400_67hz' value='145'/>
+<enum name='kIOTimingIDApple_640x480_67hz' value='140'/>
+<enum name='kIOTimingIDApple_640x818_75hz' value='165'/>
+<enum name='kIOTimingIDApple_640x870_75hz' value='160'/>
+<enum name='kIOTimingIDApple_832x624_75hz' value='170'/>
+<enum name='kIOTimingIDApple_FixedRateLCD' value='42'/>
+<enum name='kIOTimingIDFilmRate_48hz' value='410'/>
+<enum name='kIOTimingIDGTF_640x480_120hz' value='159'/>
+<enum name='kIOTimingIDInvalid' value='0'/>
+<enum name='kIOTimingIDSMPTE240M_60hz' value='400'/>
+<enum name='kIOTimingIDSony_1600x1024_76hz' value='500'/>
+<enum name='kIOTimingIDSony_1920x1080_60hz' value='510'/>
+<enum name='kIOTimingIDSony_1920x1080_72hz' value='520'/>
+<enum name='kIOTimingIDSony_1920x1200_76hz' value='540'/>
+<enum name='kIOTimingIDVESA_1024x768_60hz' value='190'/>
+<enum name='kIOTimingIDVESA_1024x768_70hz' value='200'/>
+<enum name='kIOTimingIDVESA_1024x768_75hz' value='204'/>
+<enum name='kIOTimingIDVESA_1024x768_85hz' value='208'/>
+<enum name='kIOTimingIDVESA_1152x864_75hz' value='215'/>
+<enum name='kIOTimingIDVESA_1280x1024_60hz' value='260'/>
+<enum name='kIOTimingIDVESA_1280x1024_75hz' value='262'/>
+<enum name='kIOTimingIDVESA_1280x1024_85hz' value='268'/>
+<enum name='kIOTimingIDVESA_1280x960_60hz' value='252'/>
+<enum name='kIOTimingIDVESA_1280x960_75hz' value='250'/>
+<enum name='kIOTimingIDVESA_1280x960_85hz' value='254'/>
+<enum name='kIOTimingIDVESA_1360x768_60hz' value='590'/>
+<enum name='kIOTimingIDVESA_1600x1200_60hz' value='280'/>
+<enum name='kIOTimingIDVESA_1600x1200_65hz' value='282'/>
+<enum name='kIOTimingIDVESA_1600x1200_70hz' value='284'/>
+<enum name='kIOTimingIDVESA_1600x1200_75hz' value='286'/>
+<enum name='kIOTimingIDVESA_1600x1200_80hz' value='288'/>
+<enum name='kIOTimingIDVESA_1600x1200_85hz' value='289'/>
+<enum name='kIOTimingIDVESA_1792x1344_60hz' value='296'/>
+<enum name='kIOTimingIDVESA_1792x1344_75hz' value='298'/>
+<enum name='kIOTimingIDVESA_1856x1392_60hz' value='300'/>
+<enum name='kIOTimingIDVESA_1856x1392_75hz' value='302'/>
+<enum name='kIOTimingIDVESA_1920x1440_60hz' value='304'/>
+<enum name='kIOTimingIDVESA_1920x1440_75hz' value='306'/>
+<enum name='kIOTimingIDVESA_640x480_60hz' value='150'/>
+<enum name='kIOTimingIDVESA_640x480_72hz' value='152'/>
+<enum name='kIOTimingIDVESA_640x480_75hz' value='154'/>
+<enum name='kIOTimingIDVESA_640x480_85hz' value='158'/>
+<enum name='kIOTimingIDVESA_800x600_56hz' value='180'/>
+<enum name='kIOTimingIDVESA_800x600_60hz' value='182'/>
+<enum name='kIOTimingIDVESA_800x600_72hz' value='184'/>
+<enum name='kIOTimingIDVESA_800x600_75hz' value='186'/>
+<enum name='kIOTimingIDVESA_800x600_85hz' value='188'/>
+<enum name='kIOTimingIDVESA_848x480_60hz' value='570'/>
+<enum name='kIOTriStateSyncs' value='128'/>
+<enum name='kIOUYVY422PixelFormat' value='1431918169'/>
+<enum name='kIOVRAMSaveAttribute' value='1987212150'/>
+<enum name='kIOVSyncDisable' value='2'/>
+<enum name='kIOYUV211PixelFormat' value='1496461617'/>
+<enum name='kIOYUV411PixelFormat' value='1496592689'/>
+<enum name='kIOYUVSPixelFormat' value='2037741171'/>
+<enum name='kIOYUVUPixelFormat' value='2037741173'/>
+<enum name='kIOYVU9PixelFormat' value='1498830137'/>
+<enum name='kIOYVYU422PixelFormat' value='1498831189'/>
+<enum name='kInvertingEncodedPixel' value='4'/>
+<enum name='kInvertingEncoding' value='1'/>
+<enum name='kInvertingEncodingShift' value='2'/>
+<enum name='kOrConnections' value='268435454'/>
+<enum name='kSetCLUTByValue' value='1'/>
+<enum name='kSetCLUTImmediately' value='2'/>
+<enum name='kSetCLUTWithLuminance' value='4'/>
+<enum name='kTransparentEncodedPixel' value='1'/>
+<enum name='kTransparentEncoding' value='0'/>
+<enum name='kTransparentEncodingShift' value='0'/>
+<function name='IOAccelFindAccelerator'>
+<arg type='I'/>
+<arg type='^I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IODisplayCommitParameters'>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<retval type='i'/>
+</function>
+<function name='IODisplayCopyFloatParameters'>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<arg type='^^{__CFDictionary}'/>
+<retval type='i'/>
+</function>
+<function name='IODisplayCopyParameters'>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<arg type='^^{__CFDictionary}'/>
+<retval type='i'/>
+</function>
+<function name='IODisplayCreateInfoDictionary'>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<retval already_retained='true' type='^{__CFDictionary=}'/>
+</function>
+<function name='IODisplayForFramebuffer'>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<retval type='I'/>
+</function>
+<function name='IODisplayGetFloatParameter'>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<arg type='^{__CFString=}'/>
+<arg type='^f'/>
+<retval type='i'/>
+</function>
+<function name='IODisplayGetIntegerRangeParameter'>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<arg type='^{__CFString=}'/>
+<arg type='^i'/>
+<arg type='^i'/>
+<arg type='^i'/>
+<retval type='i'/>
+</function>
+<function name='IODisplayMatchDictionaries'>
+<arg type='^{__CFDictionary=}'/>
+<arg type='^{__CFDictionary=}'/>
+<arg type='L' type64='I'/>
+<retval type='l' type64='i'/>
+</function>
+<function name='IODisplaySetFloatParameter'>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<arg type='^{__CFString=}'/>
+<arg type='f'/>
+<retval type='i'/>
+</function>
+<function name='IODisplaySetIntegerParameter'>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<arg type='^{__CFString=}'/>
+<arg type='l' type64='i'/>
+<retval type='i'/>
+</function>
+<function name='IODisplaySetParameters'>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<arg type='^{__CFDictionary=}'/>
+<retval type='i'/>
+</function>
+<function name='IOFBAcknowledgeNotification'>
+<arg type='^v'/>
+<retval type='i'/>
+</function>
+<function name='IOFBAcknowledgePM'>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBBeamPosition'>
+<arg type='^v'/>
+<arg type='L' type64='I'/>
+<arg type='^i'/>
+<retval type='i'/>
+</function>
+<function name='IOFBBlitSurfaceCopy'>
+<arg type='^v'/>
+<arg type='L' type64='I'/>
+<arg type='^v'/>
+<arg type='^{_IOAccelDeviceRegion=I{_IOAccelBounds=ssss}[0{_IOAccelBounds=ssss}]}'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBBlitSurfaceSurfaceCopy'>
+<arg type='^v'/>
+<arg type='L' type64='I'/>
+<arg type='^v'/>
+<arg type='^v'/>
+<arg type='^{_IOAccelDeviceRegion=I{_IOAccelBounds=ssss}[0{_IOAccelBounds=ssss}]}'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBBlitVRAMCopy'>
+<arg type='^v'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='L' type64='I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBBurstWrite32'>
+<arg type='^v'/>
+<arg type='^v'/>
+<arg type='^v'/>
+<arg type='^v'/>
+<arg type='^v'/>
+<arg type='^v'/>
+<arg type='^v'/>
+<arg type='^v'/>
+</function>
+<function name='IOFBCommitMemory'>
+<arg type='^v'/>
+<arg type='I' type64='Q'/>
+<arg type='I' type64='Q'/>
+<arg type='L' type64='I'/>
+<arg type='^^v'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBCreateDisplayModeDictionary'>
+<arg type='I'/>
+<arg type='l' type64='i'/>
+<retval already_retained='true' type='^{__CFDictionary=}'/>
+</function>
+<function name='IOFBCreateSharedCursor'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBDispatchMessageNotification'>
+<arg type='I'/>
+<arg type='^{_mach_msg_header_t=IIIIIi}'/>
+<arg type='L' type64='I'/>
+<arg type='^{IOFBMessageCallbacks=^?^?^?^?}'/>
+<arg type='^v'/>
+<retval type='i'/>
+</function>
+<function name='IOFBGetAttributeForFramebuffer'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBGetConnectState'>
+<arg type='I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBGetCurrentDisplayModeAndDepth'>
+<arg type='I'/>
+<arg type='^i'/>
+<arg type='^i'/>
+<retval type='i'/>
+</function>
+<function name='IOFBGetDefaultDisplayMode'>
+<arg type='I'/>
+<arg type='^i'/>
+<arg type='^i'/>
+<retval type='i'/>
+</function>
+<function name='IOFBGetDisplayModeCount'>
+<arg type='I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBGetDisplayModeInformation'>
+<arg type='I'/>
+<arg type='l' type64='i'/>
+<arg type='^{IODisplayModeInformation=IIIiISS[3L]}' type64='^{IODisplayModeInformation=IIIiISS[3I]}'/>
+<retval type='i'/>
+</function>
+<function name='IOFBGetDisplayModes'>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<arg type='^i'/>
+<retval type='i'/>
+</function>
+<function name='IOFBGetFramebufferInformationForAperture'>
+<arg type='I'/>
+<arg type='l' type64='i'/>
+<arg type='^{IOFramebufferInformation=IIIIIIII[4L]}' type64='^{IOFramebufferInformation=IIIIIIII[4I]}'/>
+<retval type='i'/>
+</function>
+<function name='IOFBGetFramebufferOffsetForAperture'>
+<arg type='I'/>
+<arg type='l' type64='i'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBGetNotificationMachPort'>
+<arg type='I'/>
+<retval type='I'/>
+</function>
+<function name='IOFBGetPixelFormat'>
+<arg type='I'/>
+<arg type='l' type64='i'/>
+<arg type='l' type64='i'/>
+<arg type='l' type64='i'/>
+<arg type='^[64c]'/>
+<retval type='i'/>
+</function>
+<function name='IOFBGetPixelFormats'>
+<arg type='I'/>
+<arg type='l' type64='i'/>
+<arg type='l' type64='i'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBGetPixelInfoDictionary'>
+<arg type='^{__CFDictionary=}'/>
+<arg type='l' type64='i'/>
+<arg type='l' type64='i'/>
+<retval type='^{__CFDictionary=}'/>
+</function>
+<function name='IOFBGetPixelInformation'>
+<arg type='I'/>
+<arg type='l' type64='i'/>
+<arg type='l' type64='i'/>
+<arg type='l' type64='i'/>
+<arg type='^{IOPixelInformation=IIIIII[16L][64c]III[2L]}' type64='^{IOPixelInformation=IIIIII[16I][64c]III[2I]}'/>
+<retval type='i'/>
+</function>
+<function name='IOFBMemoryCopy'>
+<arg type='^v'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='^i'/>
+<retval type='i'/>
+</function>
+<function name='IOFBReleaseMemory'>
+<arg type='^v'/>
+<arg type='^v'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSet256To888Table'>
+<arg type='I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSet444To555Table'>
+<arg type='I'/>
+<arg type='*'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSet555To444Table'>
+<arg type='I'/>
+<arg type='*'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSet888To256Table'>
+<arg type='I'/>
+<arg type='*'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSetAttributeForFramebuffer'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSetBounds'>
+<arg type='I'/>
+<arg type='^{IOGBounds=ssss}'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSetBurstRef'>
+<arg type='^v'/>
+</function>
+<function name='IOFBSetCLUT'>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='^{IOColorEntry=SSSS}'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSetCursorPosition'>
+<arg type='I'/>
+<arg type='l' type64='q'/>
+<arg type='l' type64='q'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSetCursorVisible'>
+<arg type='I'/>
+<arg type='i'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSetDisplayModeAndDepth'>
+<arg type='I'/>
+<arg type='l' type64='i'/>
+<arg type='l' type64='i'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSetGamma'>
+<arg type='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='^v'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSetNewCursor'>
+<arg type='I'/>
+<arg type='^v'/>
+<arg type='l' type64='i'/>
+<arg type='L' type64='I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSetStartupDisplayModeAndDepth'>
+<arg type='I'/>
+<arg type='l' type64='i'/>
+<arg type='l' type64='i'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSetVirtualBounds'>
+<arg type='I'/>
+<arg type='^{IOGBounds=ssss}'/>
+<arg type='^{IOGBounds=ssss}'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSetupFIFOBurst'>
+<arg type='^v'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='^^v'/>
+<retval type='i'/>
+</function>
+<function name='IOFBSynchronize'>
+<arg type='^v'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<arg type='L' type64='I'/>
+<retval type='i'/>
+</function>
+<function name='IOFBWaitForCompletion'>
+<arg type='^v'/>
+<arg type='l' type64='i'/>
+<retval type='i'/>
+</function>
+<function name='IOFramebufferOpen'>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='I'/>
+<arg type='^I'/>
+<retval type='i'/>
+</function>
+<function name='IOPSAllocateBlitEngine'>
+<arg type='I'/>
+<arg type='^^v'/>
+<arg type='^i'/>
+<retval type='i'/>
+</function>
+<function name='IOPSBlitCopy'>
+<arg type='^v'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='i'/>
+<retval type='i'/>
+</function>
+<function name='IOPSBlitDeallocate'>
+<arg type='^v'/>
+<retval type='i'/>
+</function>
+<function name='IOPSBlitFill'>
+<arg type='^v'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='i'/>
+<retval type='i'/>
+</function>
+<function name='IOPSBlitIdle'>
+<arg type='^v'/>
+<retval type='i'/>
+</function>
+<function name='IOPSBlitInvert'>
+<arg type='^v'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='i'/>
+<arg type='i'/>
+<retval type='i'/>
+</function>
+<function name='IOPSBlitReset'>
+<arg type='^v'/>
+<retval type='i'/>
+</function>
+</signatures>
